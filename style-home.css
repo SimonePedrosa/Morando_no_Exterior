@@ -1,0 +1,166 @@
+/*CSS color: nome, alfabeto hexadecimal ou RGB*/
+	
+header {
+	background: 
+
+}
+#banner {
+	position: relative;
+	width: 1300px;
+	margin: 0 auto;
+}
+nav {
+	position: relative;
+	background: DarkSlateBlue;
+	padding: 1px;
+	padding-inline-start: 300px;
+	margin: 0 auto;
+
+}
+nav li {
+	display: inline-block;
+	margin: 0 0 0 50px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	font-size: 23px;
+	color: lightgray;
+}
+
+#pagina, form {
+	/*background-color: gray;*/
+	width: 100%;
+    max-width: 1340px;
+    margin: 0px auto;
+    padding: 5px 0px 5px 0px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+
+#pagina-conteudo  {
+	margin: 20px;
+	border: solid 1px;
+	padding: 20px;
+	width: calc(100% - 450px);
+    max-width: 1002px;
+    text-align: left;
+    position: relative;
+    float: right;
+}
+
+#imagem-conteudo {
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
+#sidebar {
+	padding: 20px;
+	/*background-color: green;*/
+
+	width: 100%;
+    max-width: 300px;
+    position: relative;
+    float: left;
+}
+
+.sidebar-perfil  {
+	border: solid 1px;
+	width: 100%;
+    height: auto;
+    position: relative;
+    display: block;
+    padding: 10px;
+    margin: 0px 0px 30px 0px;
+} 
+
+.sidebar-imagem {
+    width: 100%;
+    color: #000;
+    line-height: 1.125em;
+    text-align: justify;
+    padding: 0px 0px 11px 0px;
+    position: relative;
+    float: left;
+   }
+
+#youtube {
+	border: solid 1px;
+	width: 100%;
+    height: auto;
+    position: relative;
+    display: block;
+    padding: 10px;
+
+}
+
+h1 {
+	color: DarkSlateBlue;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+p {
+	text-align: center;
+}
+
+/* CSS Contato: form e mensagem-cliente; */
+
+form {
+	border: solid 1px black;
+}
+
+.rodape {
+	background-color: DarkSlateBlue;
+	margin: 0 auto;
+	width: 100%;
+    text-align: left;
+    position: relative;
+    float: left;
+
+}
+
+address {
+	font-size: 16px;
+	font-weight: bold;
+	background-color: white;
+	padding: 0.5px;
+	border-top: solid 1px black;
+}
+
+#redes-sociais {
+	position: relative;
+    float: right;
+    width: auto;
+    height: auto;
+    margin: 15px;
+   
+ }
+
+.rede-youtube, .rede-instagram, .rede-facebook {
+	max-width:30px;
+    max-height: 30px;
+    margin: 5px;
+   	padding: 5px;
+   	border: dotted  1px black;
+}
+
+.copyrights {
+	color: white;
+	font-size: 15;
+	text-align: right;
+	padding-top: 25px;
+	margin: 10px;
+	
+}
